@@ -1,0 +1,191 @@
+@media (max-width: 1200px) {
+  .paper-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #org-collection .paper-grid .paper-summary {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 1024px) {
+  html,
+  body {
+    font-size: 25px;
+  }
+
+  .sidebar {
+    z-index: 1;
+  }
+
+  .sidebar .menu {
+    width: 200px;
+  }
+
+  header.heading {
+    display: flex;
+    text-align: center;
+    background: #e4e4e4;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .heading h3 {
+    padding-bottom: 0;
+    margin: auto;
+  }
+
+  .panel {
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .slct .inst h3 {
+    font-size: 1em;
+  }
+
+  .slct .radio-slct {
+    height: 200px;
+    margin: 0 auto;
+  }
+  .slct .radio-slct label {
+    font-size: 0.65rem;
+    min-width: 67vw;
+  }
+
+  #org-slct,
+  #work-slct {
+    width: 80vw;
+  }
+
+  #org-slct .inst,
+  #work-slct .inst {
+    width: 80vw;
+  }
+
+  #table-form table {
+    font-size: 0.45rem;
+  }
+
+  #table-form table th {
+    min-width: 10vw;
+    font-weight: 500;
+    font-size: 0.45rem;
+  }
+
+  #table-form table tr th:nth-child(4) > i {
+    display: block;
+  }
+
+  #table-form table tr th:nth-child(4) > div {
+    display: block;
+  }
+
+  #table-form table th:nth-child(5) {
+    max-width: 12vw;
+  }
+
+  #table-form .toggle-btn {
+    font-size: 0.45rem;
+  }
+
+  #table-form th input[type="number"] {
+    font-size: 0.45rem;
+  }
+  #table-form input {
+    font-size: 0.45rem;
+  }
+
+  .modal .form-grid .form-grid-body {
+    grid-template-columns: 1fr;
+  }
+
+  .container h2 {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    background: #e4e4e4;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .container .table-content {
+    margin-top: calc(50px + 1rem);
+  }
+}
+
+@media (max-width: 800px) {
+  #changePasswordForm {
+    width: 70%;
+  }
+}
+
+@media (max-width: 560px) {
+  html,
+  body {
+    font-size: 20px;
+  }
+
+  .modal .form-group {
+    flex-direction: column;
+  }
+
+  .modal .form-group label {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .modal .form-group .form-title {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .modal .form-group label {
+    text-align: left;
+  }
+
+  .modal .form-group input {
+    width: 100%;
+  }
+
+  .modal .form-multi .form-title {
+    text-align: left;
+  }
+
+  .modal .form-multi .form-multi-body {
+    width: 100%;
+  }
+
+  .modal .form-ext input.toggler + label {
+    width: 100%;
+    margin: 0;
+    margin-top: 0.2rem;
+  }
+
+  #changePasswordForm {
+    width: 85%;
+  }
+}
+
+@media (max-height: 500px) {
+  header.heading {
+    position: relative;
+  }
+
+  .sidebar .menu ul.menu-list li {
+    font-size: 0.6rem;
+  }
+}
