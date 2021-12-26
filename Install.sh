@@ -49,6 +49,8 @@ sed -i -e 's/DB_PASSWORD=.*/DB_PASSWORD=\"'$db_password'\"/g' .env
 php artisan migrate --force
 php artisan db:seed --force
 
+cd ..
+
 script_path="$0"
 
 destroy() {
